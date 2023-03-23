@@ -53,8 +53,8 @@ table {
 body {
 	font-family: 'Albert Sans';
 	font-weight: 400;
-	background-color: rgb(24, 24, 24);
-    color: antiquewhite;
+	background-color: rgb(10, 10, 10);
+    color: rgb(245, 245, 245);
 	margin: 0px;
 	display: flex;
   	flex-direction: column;
@@ -70,8 +70,9 @@ a {
 header{
 	display: flex;
 	position: relative;
-	padding: 13px 0px 0px 13px;
+	padding: 13px 0px 10px 13px;
 	justify-content: space-between;
+	background-color: rgb(24, 24, 24);
 }
 
 .Icono{
@@ -88,7 +89,6 @@ nav{
 	display: flex;
 	align-items: center; /* ALINEA EN EL EJE Y MIENTRAS EL JUSTIFY EN EL X SI EL FLEX ESTA EN ROW */
 	padding-right: 0px;
-	padding-bottom: 15px;
 }
 
 nav ul{
