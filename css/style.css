@@ -186,6 +186,9 @@ nav ul li a:hover{
 main #Banner{
 	width: 100%;
 	overflow: auto;
+	box-shadow: 0.1em 0.1em 2em rgba(0, 255, 255, 0.397);
+	border-bottom: inset;
+	margin-bottom: 20px;
 }
 /* INICIO ULTIMOS LANZAMIENTOS */
 
@@ -216,7 +219,10 @@ main #Banner{
 
 #Merch h2{
 	padding-top: 25px;
+	margin-top: 40px;
 	border-top: outset;
+	box-shadow: 0px -17px 32px -14px rgba(0,255,255,0.397);
+	
 }
 
 #Articulos{
@@ -229,6 +235,10 @@ main #Banner{
 .Elemento_merch{
 	background-color: white;
 	margin: 10px 0;
+	box-shadow: inset 0 0 0 2px rgba(238, 106, 238, 0.11), 0.1em 0.1em 2em rgba(0, 255, 255, 0.397);
+	border-style: solid;
+	border-color: rgba(0, 255, 255, 0.363);
+	border-radius: 10px 10px 10px 10px;
 }
 
 .Elemento_merch a img{
@@ -250,6 +260,22 @@ main #Banner{
 #Merch_boton a:hover{
 	background-color:rgb(199, 199, 199);
 	border-color: rgb(199, 199, 199);
+}
+
+#Spotify_sec{
+	border-top: outset;
+	margin-top: 40px;
+}
+
+#Spotify_sec div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#Spotify_sec div iframe{
+	width: 95%;
+	height: 352px;
+	padding: 10px 0px;
 }
 /* FOOTER */
 footer{
@@ -279,6 +305,11 @@ footer p{
 }
 
 /* TENDENCIAS TENDENCIAS TENDENCIAS TENDENCIAS*/
+
+#Header_tendencias{
+	background-color: transparent;
+}
+
 .Icono#Fade{
 	position: relative;
 }
