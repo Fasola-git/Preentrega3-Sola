@@ -359,6 +359,16 @@ footer{
 }
 
 /* INDEX INDEX INDEX INDEX */
+#Background_video{
+    #video_desk{
+        display: block;
+    }
+    #video_mobile{
+        display: none;
+        width: 100%;
+        height: auto;
+    }
+}
 
 #Main_index{
 	display: block;
@@ -592,7 +602,24 @@ footer{
         }
     }
 
+    #Background_video{
+        #video_desk{
+            display: none;
+        }
+        #video_mobile{
+            display: block;
+        }
+    }
+
+    .footer_video{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
+
+
 
 @media (min-width: 768px) and (max-width: 991px){/* Esta consulta de medios se utiliza para dispositivos móviles en modo horizontal y tabletas en orientación vertical. */
     header{
@@ -627,6 +654,14 @@ footer{
         }
     }
 
+    #Background_video{
+        #video_desk{
+            display: none;
+        }
+        #video_mobile{
+            display: block;
+        }
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){/* Esta consulta de medios se utiliza para tabletas en orientación horizontal y pantallas de tamaño mediano. */
